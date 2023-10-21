@@ -97,6 +97,9 @@ public class Employee {
             employee.carNumber = carNumber;
             return this;
         }
+        public Employee build() {
+            return employee;
+        }
         // Write your code here!
     }
 }
